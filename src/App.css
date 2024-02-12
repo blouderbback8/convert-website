@@ -1,0 +1,199 @@
+/* Center the logo horizontally */
+.logo-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* Center vertically */
+  padding-top: 20px;
+}
+
+.logo-container img {
+  max-width: 100%;
+  height: auto;
+}
+
+#nav_menu {
+  text-align: center;
+}
+
+#email-link,
+#github-link,
+#smoothcomp-link {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #007BFF;
+  /* Choose your desired background color */
+  color: white;
+  text-decoration: none;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+#email-link:hover,
+#github-link:hover,
+#smoothcomp-link:hover {
+  background-color: #178735;
+  /* Change the background color on hover */
+}
+
+.rounded-image {
+  border-radius: 50%;
+  max-width: 100%;
+}
+
+/* Limit the width of the <p> tags and align them to the left */
+p {
+  max-width: 600px;
+  margin: 0;
+  padding: 10px 0;
+}
+
+/* Reduce spacing between sections */
+section {
+  margin-bottom: 20px;
+}
+
+/* Formatting For the Contact Form */
+#contact-form {
+  display: none;
+}
+
+/* Style for the individual image containers */
+.image-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 20px 0;
+}
+
+/* Formatting for Pong-Game*/
+#games {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+.game-container,
+.image-container {
+  flex: 1;
+}
+
+.game-iframe {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Style for Pong game iframe */
+iframe.pong {
+  display: block;
+  margin: 0 auto;
+  border: none;
+}
+
+/* Style for the individual image containers */
+.image-container {
+  width: calc((405px * 8.5) / 11);
+  /* Calculate width based on height and aspect ratio */
+  height: 405px;
+  /* Set the height to match the pong game */
+  max-height: 405px;
+  /* Set the maximum height to match the pong game */
+  overflow: hidden;
+  /* Hide any content exceeding the container */
+  border: none;
+  /* Remove any border */
+  border-radius: 10px;
+  /* Optional: Add border radius */
+  margin-bottom: 20px;
+  /* Optional: Add margin for spacing */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* background-color: black;  Remove or comment out to eliminate black background */
+  box-sizing: border-box;
+  /* Include padding and border in total width/height */
+}
+
+/* Style for the image */
+.image-container img {
+  width: auto;
+  /* Adjust the width */
+  height: 100%;
+  /* Set height to 100% */
+  object-fit: contain;
+  /* Fit the image inside the container */
+}
+ 
+@font-face {
+  font-family: Blogger Sans;
+  src: url("../public/Fonts/blogger-sans-font/Bloggersans-0rzv.otf");
+}
+
+body {
+text-align: left;
+  font-family: Blogger Sans;
+  background-color: #000000;
+color: white;
+background-image: url("/public/Media/4cowboys-1.png");  
+/* Use this background 4 transition effect */
+background-size: cover;
+background-attachment: fixed;
+background-repeat: no-repeat;
+background-position: center;
+color: white;
+transition: background 0.5s;
+/* Add for transition effect */
+/* Add for transition effect */
+/* Add 4 transition effect^ */
+}
+
+/* nav menu section*/
+
+#nav_menu {
+text-align: center; /* Center the navigation menu */
+}
+
+#nav_menu ul
+{
+display: flex;
+flex-basis: 100%;
+justify-content: space-evenly;
+list-style: none;
+margin: 0;
+padding: 0;
+position: relative;
+}
+#nav_menu ul li 
+{
+    flex-basis: 33%;
+}
+#nav_menu ul li a
+{
+display: block;
+text-align: center;
+padding: 1em 0;
+text-decoration: none;
+background-color: #178735;
+color: white;
+font-weight: bold;
+}
+#nav_menu ul li a.current 
+{
+color: white;
+}
+#nav_menu li 
+{
+font-size: 120%;
+ padding-top: 0;
+margin-top: 0;
+margin-bottom: 0.25em;
+}
+
+/*Responsive web design thresholds*/
+@media only screen and (width <= 550px) {
+  img {
+      width: 100%;
+  }
+}
