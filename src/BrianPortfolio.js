@@ -4,6 +4,7 @@ import './App.css'
 import ContactSection from './ContactSection';
 import EducationSection from './EducationSection';
 import WorkExperienceSection from './WorkExperienceSection';
+import Projects from './Projects'; 
 
 
 const Html = () => {
@@ -50,7 +51,7 @@ const Html = () => {
       objectFit: 'cover',
     }}
   />
-  {/* Your content here */}
+  
 </div>
 
 
@@ -59,6 +60,7 @@ const Html = () => {
                 <ContactSection style={{ color: 'white' }} />
                 <EducationSection style={{ color: 'white' }} />
                 <WorkExperienceSection style={{ color: 'white' }} />
+                <Projects/>
 
                 {/*<section id="games">
                     <div className="game-container">
