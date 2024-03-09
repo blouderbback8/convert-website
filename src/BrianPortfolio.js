@@ -34,7 +34,7 @@ const Html = () => {
                             <a href="../jessica-portfolio/jessica-index.html">Jessica</a>
                         </li>
                         <li>
-                            <a href="../brian-portfolio/brian-index.html">Brian</a>
+                            <a href="../brian-portfolio/brian-index.html">Brian </a>
                         </li>
                     </ul>
                 </nav>
